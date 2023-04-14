@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 
 # with st.echo(code_location='below'):
-st.title('Stock Trading Strategy Backtesting App')
+st.title('Backtester')
 
 # Get user inputs
 principal = st.number_input('Enter the principal amount:', value=10000.0)
@@ -110,3 +110,4 @@ if st.button('Run Backtest'):
     st.write(f'Average Profit per Trade: {avg_profit_per_trade:.2f}')
     st.write(f'Average Profit per Win Trade: {avg_profit_per_win_trade:.2f}')
     st.write(f'Average Loss per Loss Trade: {avg_loss_per_loss_trade:.2f}')
+
